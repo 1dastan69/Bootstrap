@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    html,
+    body,
+    header,
+    .carousel{
+      height: 60vh;
+    }
+    @media (max-width: 740px){
+      html,
+      body,
+      header,
+      .carousel{
+       height: 100vh;
+    }
+    @media (min-width: 800px) and (max-width: 850px)  {
+      html,
+      body,
+      header,
+      .carousel{
+       height: 100vh;
+    }
+    }
+}
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+  <div class="container">
+    <a href="#" class="navbar-brand waves-effect">
+      <strong class="blue-text">DasSs</strong>
+    </a>
+    <button class="navbar-toggler" type="button"
+    data-toggle="collapse" data-target="#navbarContent"
+    aria-controls="navbarContent" aria-expanded="false" aria-table="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+    </button>
+     <div class="collapse navbar-collapse" id="navbarContent">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item active">
+          <a href="#" class="nav-link waves-effect">Home</a>
+         </li>
+         <li class="nav-item">
+          <a href="#" class="nav-link waves-effect">Product</a>
+         </li>
+         <li class="nav-item">
+          <a href="#" class="nav-link waves-effect">About us</a>
+         </li>
+         <li class="nav-item">
+          <a href="#" class="nav-link waves-effect">Blog</a>
+         </li>
+       </ul>
+
+        <ul class="navbar-nav nav-flex-icons">
+         <li class="nav-item">
+            <a href="#" class="nav-link waves-effect">
+              <span class="badge red z-depth-1 mr-1">14</span>
+              <i class="fa fa-shopping-cart"></i>
+              <span class="clearfix d-none d-sm-inline-block">Card</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link waves-effect">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link waves-effect">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link border border-light rounded waves-effect">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+     </div> 
+  </div>
+
+</nav>
+<div id="carousel-ex" class="carousel slide carousel-fade pt-4" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li class="active" data-target="#carousel-ex" data-slide-to="0"></li>
+      <li data-target="#carousel-ex" data-slide-to="1"></li>
+      <li data-target="#carousel-ex" data-slide-to="2"></li>      
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="view" style="background-image: url('https://images.pexels.com/photos/267371/pexels-photo-267371.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+        background-repeat: no-repeat; background-size: cover;">
+         <div class="mask rgba-black-strong d-flex 
+         justify-content-center align-items-center">
+
+          <div class="text-center white-text mx-5 wow fadeIn">
+            
+            <h1 class="mb-4">
+              <strong>Dastan Make Project</strong>
+            </h1>
+
+            <p>
+              <strong>Lorem, ipsum dolor sit amet
+                 consectetur adipisicing elit. Voluptates
+                 , at.</strong>
+            </p>
+
+             <p class="mb-4 d-none d-md-block">
+               <strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto praesentium, doloribus id culpa aut ab.</strong>
+             </p>
+             <a href="#" class="btn btn-outline-white btn-lg">
+               Lorem, ipsum dolor. <i class="fa fa-graduation-cap ml-2"></i>
+             </a>
+          </div>
+         </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="view" style="background-image: url('https://images.pexels.com/photos/977739/pexels-photo-977739.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+        background-repeat: no-repeat; background-size: cover;">
+         <div class="mask rgba-black-strong d-flex 
+         justify-content-center align-items-center">
+
+          <div class="text-center white-text mx-5 wow fadeIn">
+            
+            <h1 class="mb-4">
+              <strong>Dastan Make Project</strong>
+            </h1>
+
+            <p>
+              <strong>Lorem, ipsum dolor sit amet
+                 consectetur adipisicing elit. Voluptates
+                 , at.</strong>
+            </p>
+
+             <p class="mb-4 d-none d-md-block">
+               <strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto praesentium, doloribus id culpa aut ab.</strong>
+             </p>
+             <a href="#" class="btn btn-outline-white btn-lg">
+               Lorem, ipsum dolor. <i class="fa fa-graduation-cap ml-2"></i>
+             </a>
+          </div>
+         </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="view" style="background-image: url('https://images.pexels.com/photos/1168940/pexels-photo-1168940.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+        background-repeat: no-repeat; background-size: cover;">
+         <div class="mask rgba-black-strong d-flex 
+         justify-content-center align-items-center">
+
+          <div class="text-center white-text mx-5 wow fadeIn">
+            
+            <h1 class="mb-4">
+              <strong>Dastan Make Project</strong>
+            </h1>
+
+            <p>
+              <strong>Lorem, ipsum dolor sit amet
+                 consectetur adipisicing elit. Voluptates
+                 , at.</strong>
+            </p>
+
+             <p class="mb-4 d-none d-md-block">
+               <strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto praesentium, doloribus id culpa aut ab.</strong>
+             </p>
+             <a href="#" class="btn btn-outline-white btn-lg">
+               Lorem, ipsum dolor. <i class="fa fa-graduation-cap ml-2"></i>
+             </a>
+          </div>
+         </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#carousel-ex" class="carousel-control-prev"
+    role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a href="#carousel-ex" class="carousel-control-next"
+    role="button" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+
+<main>
+  <div class="conteiner">
+
+    <nav class="navbar navbar-expand-lg 
+    navbar-dark mdb-color lighten-3 nt-3 mb-5">
+     
+    <span class="navbar-brand">Catigories:</span>
+     
+     <button class="navbar-toggler" type="button"
+      data-toggle="collapse" data-target="#nextNav"
+       aria-controls="nextNav" aria-expanded="false" aria-table="Toggle navigation">
+      
+       <span class="navbar-toggler-icon"></span>
+     
+      </button>
+      <div class="collapse navbar-collapse" id="nextNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a href="#" class="nav-link">All</a>
+        </li>
+        <li class="nav-item active">
+          <a href="#" class="nav-link">Shert</a>
+        </li> 
+        <li class="nav-item">
+          <a href="#" class="nav-link">sport Wears</a>
+        </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Out Wears</a>
+        </li>
+      </ul>
+
+      <form class="form-inline">
+        <div class="md-form my-0">
+          <input type="text" class="form-control mr-sm-2"
+           placeholder="Search" aria-tabel="Search">
+        </div>
+      </form>
+      </div>
+  </nav>
+
+  <section class="text-center mb-4">
+    <div class="row wow fadeIn">
+      <div class="col-lg-3 col-md-6 md-4">
+        <div class="card">
+
+          <div class="view overlay">
+          <img class="card-img-top" src="https://images.pexels.com/photos/991509/pexels-photo-991509.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Nasa">
+          <a href="">
+            <div class="mask rgba-white-slight"></div>
+          </a>
+          </div>
+
+          <div class="card-body text-center">
+            <a href="" class="grey-text">
+              <h5>T-Shirt</h5>
+            </a>
+
+            <h5>
+              <strong>
+                <a href="#" class="dark-grey-text">Nasa t-shirt 
+                  <span class="badge badge-pill danger-color">NEW</span></a>
+              </strong>
+            </h5>
+
+              <h4 class="font-weight-bold blue-text">
+                <strong>800som</strong>
+              </h4>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-6 md-4">
+        <div class="card">
+
+          <div class="view overlay">
+          <img class="card-img-top" src="https://images.pexels.com/photos/1656684/pexels-photo-1656684.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Nasa">
+          <a href="">
+            <div class="mask rgba-white-slight"></div>
+          </a>
+          </div>
+
+          <div class="card-body text-center">
+            <a href="" class="grey-text">
+              <h5>T-Shirt</h5>
+            </a>
+            
+            <h5>
+              <strong>
+                <a href="#" class="dark-grey-text">Nasa t-shirt 
+                  <span class="badge badge-pill danger-color">NEW</span></a>
+              </strong>
+            </h5>
+
+              <h4 class="font-weight-bold blue-text">
+                <strong>800som</strong>
+              </h4>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-6 md-4">
+        <div class="card">
+
+          <div class="view overlay">
+          <img class="card-img-top" src="https://images.pexels.com/photos/1887975/pexels-photo-1887975.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Nasa">
+          <a href="">
+            <div class="mask rgba-white-slight"></div>
+          </a>
+          </div>
+
+          <div class="card-body text-center">
+            <a href="" class="grey-text">
+              <h5>T-Shirt</h5>
+            </a>
+            
+            <h5>
+              <strong>
+                <a href="#" class="dark-grey-text">Nasa t-shirt 
+                  <span class="badge badge-pill danger-color">NEW</span></a>
+              </strong>
+            </h5>
+
+              <h4 class="font-weight-bold blue-text">
+                <strong>800som</strong>
+              </h4>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-6 md-4">
+        <div class="card">
+
+          <div class="view overlay">
+          <img class="card-img-top" src="https://images.pexels.com/photos/1656684/pexels-photo-1656684.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Nasa">
+          <a href="">
+            <div class="mask rgba-white-slight"></div>
+          </a>
+          </div>
+
+          <div class="card-body text-center">
+            <a href="" class="grey-text">
+              <h5>T-Shirt</h5>
+            </a>
+            
+            <h5>
+              <strong>
+                <a href="#" class="dark-grey-text">Nasa t-shirt 
+                  <span class="badge badge-pill danger-color">NEW</span></a>
+              </strong>
+            </h5>
+
+              <h4 class="font-weight-bold blue-text">
+                <strong>800som</strong>
+              </h4>
+
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+    <div class="row wow fadeIn">
+      <div class="col-lg-3 col-md-6 md-4">
+        <div class="card">
+
+          <div class="view overlay">
+          <img class="card-img-top" src="https://images.pexels.com/photos/1566412/pexels-photo-1566412.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Nasa">
+          <a href="">
+            <div class="mask rgba-white-slight"></div>
+          </a>
+          </div>
+
+          <div class="card-body text-center">
+            <a href="" class="grey-text">
+              <h5>T-Shirt</h5>
+            </a>
+            
+            <h5>
+              <strong>
+                <a href="#" class="dark-grey-text">Nasa t-shirt 
+                  <span class="badge badge-pill danger-color">NEW</span></a>
+              </strong>
+            </h5>
+
+              <h4 class="font-weight-bold blue-text">
+                <strong>800som</strong>
+              </h4>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 md-4">
+        <div class="card">
+
+          <div class="view overlay">
+          <img class="card-img-top" src="https://images.pexels.com/photos/1656684/pexels-photo-1656684.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Nasa">
+          <a href="">
+            <div class="mask rgba-white-slight"></div>
+          </a>
+          </div>
+
+          <div class="card-body text-center">
+            <a href="" class="grey-text">
+              <h5>T-Shirt</h5>
+            </a>
+            
+            <h5>
+              <strong>
+                <a href="#" class="dark-grey-text">Nasa t-shirt 
+                  <span class="badge badge-pill danger-color">NEW</span></a>
+              </strong>
+            </h5>
+
+              <h4 class="font-weight-bold blue-text">
+                <strong>800som</strong>
+              </h4>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 md-4">
+        <div class="card">
+
+          <div class="view overlay">
+          <img class="card-img-top" src="https://images.pexels.com/photos/991509/pexels-photo-991509.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Nasa">
+          <a href="">
+            <div class="mask rgba-white-slight"></div>
+          </a>
+          </div>
+
+          <div class="card-body text-center">
+            <a href="" class="grey-text">
+              <h5>T-Shirt</h5>
+            </a>
+            
+            <h5>
+              <strong>
+                <a href="#" class="dark-grey-text">Nasa t-shirt 
+                  <span class="badge badge-pill danger-color">NEW</span></a>
+              </strong>
+            </h5>
+
+              <h4 class="font-weight-bold blue-text">
+                <strong>800som</strong>
+              </h4>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 md-4">
+        <div class="card">
+
+          <div class="view overlay">
+          <img class="card-img-top" src="https://images.pexels.com/photos/1566412/pexels-photo-1566412.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Nasa">
+          <a href="">
+            <div class="mask rgba-white-slight"></div>
+          </a>
+          </div>
+
+          <div class="card-body text-center">
+            <a href="" class="grey-text">
+              <h5>T-Shirt</h5>
+            </a>
+            
+            <h5>
+              <strong>
+                <a href="#" class="dark-grey-text">Nasa t-shirt 
+                  <span class="badge badge-pill danger-color">NEW</span></a>
+              </strong>
+            </h5>
+
+              <h4 class="font-weight-bold blue-text">
+                <strong>800som</strong>
+              </h4>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <nav class="d-flex justify-content-center wow fadeIn">
+    <ul class="pagination pg-blue">
+      <li class="page-item disabled">
+        <a href="" class="page-link" aria-table="Previous">
+          <span aria-hidden="true">&laquo</span>
+        </a>
+      </li>
+      <li class="page-item active">
+        <a href="" class="page-link" aria-table="Previous">
+          <span aria-hidden="true">1</span>
+        </a>
+      </li>
+      <li class="page-item">
+        <a href="" class="page-link" aria-table="Previous">
+          <span aria-hidden="true">2</span>
+        </a>
+      </li>
+      <li class="page-item">
+        <a href="" class="page-link" aria-table="Previous">
+          <span aria-hidden="true">3</span>
+        </a>
+      </li>
+      <li class="page-item">
+        <a href="" class="page-link" aria-table="Previous">
+          <span aria-hidden="true">4</span>
+        </a>
+      </li>
+      <li class="page-item">
+        <a href="" class="page-link" aria-table="Next">
+          <span aria-hidden="true">&raquo</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  </div>
+</main>
+
+
+<footer class="page-footer text-center font-small mt-4 wow fadeIn">
+  <div class="pt-4">
+    <a href="#" role="button" class="btn btn-outline-white">Dastan Make Project
+      <i class="fa fa-graduation-cap ml-2"></i></a>
+
+      <a href="#" role="button" class="btn btn-outline-white">Online Shop
+        <i class="fa fa-graduation-cap ml-2"></i></a>
+  </div>
+
+  <hr class="my-4">
+  <div class="pd-4">
+    <a href="#">
+      <i class="fab fa-facebook mr-3"></i>
+    </a>
+    <a href="#">
+      <i class="fab fa-twitter mr-3"></i>
+    </a>
+    <a href="#">
+      <i class="fab fa-youtube mr-3"></i>
+    </a>
+    <a href="#">
+      <i class="fab fa-github mr-3"></i>
+    </a>
+    <a href="#">
+      <i class="fab fa-pinterest mr-3"></i>
+    </a>
+
+  </div>
+
+  <div class="footer-copyright py-3">
+    Dastan Make Project
+  </div>
+</footer>
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+</body>
+</html>
